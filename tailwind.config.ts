@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      transitionTimingFunction: {
+        personality: 'cubic-bezier(0.76, 0, 0.24, 1)',
+      },
       colors: {
         primary: {
           '50': '#fff1f1',
@@ -35,7 +38,7 @@ const config: Config = {
           '900': '#3d3d3d',
           '950': '#2a2a2a',
         },
-        'copy color': {
+        copy: {
           white: '#ffffff',
           black: '#353238',
           red: '#a60f14',
