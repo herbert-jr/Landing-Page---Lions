@@ -19,11 +19,11 @@ function SecondList() {
         <li key={index} className='my-1 w-1/2 text-copy-white'>
           <Link
             href='/'
-            className='w-fit flex items-center space-x-2 text-base font-medium group'>
+            className='w-fit flex items-center space-x-1 text-base font-medium group'>
             <span className='whitespace-nowrap'>{item}</span>
             <FiArrowUpRight
               className='group-hover:scale-125 transition-transform duration-300 
-        ease-personality'
+        ease-personality text-sm'
             />
           </Link>
         </li>
