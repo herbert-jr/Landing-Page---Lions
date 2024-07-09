@@ -12,7 +12,7 @@ const benefits: Benefit[] = [
       'Possuímos um ótimo sistema de atendimento pós-venda com uma equipe especializada e oficinas credenciadas para deixar nossos clientes satisfeitos.',
   },
   {
-    title: 'Não percana troca',
+    title: 'Não perca na troca',
     description:
       'Somos especialistas em carros e, por isso, sabemos como avaliar o seu usado. Na Lions você pode receber até 90% do valor da tabela FIPE no momento da troca.',
   },

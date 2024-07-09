@@ -249,3 +249,106 @@ export const veiculos: Veiculo[] = [
     ano: 2020,
   },
 ];
+
+export type Unidade = {
+  Unidade: string;
+  Rua: string;
+  Bairro?: string;
+  Cidade: string;
+  Estado: string;
+  CEP: string;
+  Pais: string;
+  Funcionamento: string;
+};
+
+export const unidades: Unidade[] = [
+  {
+    Unidade: 'Orlando',
+    Rua: '4201 W Colonial Dr',
+    Cidade: 'Orlando',
+    Estado: 'FL',
+    CEP: '32808',
+    Pais: 'Estados Unidos',
+    Funcionamento: 'Seg-Sex 9:00-20:00, Sáb 9:00-18:00',
+  },
+  {
+    Unidade: 'Osasco',
+    Rua: 'Av. Pref. Hirant Sanazar, 3',
+    Bairro: 'Umuarama',
+    Cidade: 'Osasco',
+    Estado: 'SP',
+    CEP: '',
+    Pais: 'Brasil',
+    Funcionamento: 'Seg-Dom 9:00-22:00',
+  },
+  {
+    Unidade: 'Vila Prudente',
+    Rua: 'Avenida Professor Luiz Ignácio Anhaia Mello, 4272',
+    Bairro: 'Vila Prudente',
+    Cidade: 'São Paulo',
+    Estado: 'SP',
+    CEP: '',
+    Pais: 'Brasil',
+    Funcionamento: 'Seg-Dom 9:00-22:00',
+  },
+  {
+    Unidade: 'Nova Iguaçu',
+    Rua: 'Av Carlos Marques Rollo, 137',
+    Bairro: 'Jardim Império',
+    Cidade: 'Nova Iguaçu',
+    Estado: 'RJ',
+    CEP: '26225-630',
+    Pais: 'Brasil',
+    Funcionamento: 'Seg-Dom 9:00-22:00',
+  },
+  {
+    Unidade: 'Duque de Caxias',
+    Rua: 'Rod. Washington Luíz, 1375',
+    Bairro: 'Parque Duque',
+    Cidade: 'Duque de Caxias',
+    Estado: 'RJ',
+    CEP: '25085-008',
+    Pais: 'Brasil',
+    Funcionamento: 'Seg-Dom 9:00-22:00',
+  },
+  {
+    Unidade: 'Intendente Magalhães',
+    Rua: 'Estrada Intendente Magalhães, 290',
+    Bairro: '', // Bairro não fornecido
+    Cidade: 'Rio de Janeiro',
+    Estado: 'RJ',
+    CEP: '21341-332',
+    Pais: 'Brasil',
+    Funcionamento: 'Seg-Dom 9:00-22:00',
+  },
+  {
+    Unidade: 'Niterói',
+    Rua: 'RJ-104, 2620',
+    Bairro: 'Baldeador',
+    Cidade: 'Niterói',
+    Estado: 'RJ',
+    CEP: '24140-005',
+    Pais: 'Brasil',
+    Funcionamento: 'Seg-Dom 9:00-22:00',
+  },
+  {
+    Unidade: 'Barra Mansa',
+    Rua: 'R. Antônio Luiz Pires, S / N',
+    Bairro: 'Boa Vista I',
+    Cidade: 'Barra Mansa',
+    Estado: 'RJ',
+    CEP: '27332-360',
+    Pais: 'Brasil',
+    Funcionamento: 'Seg-Dom 9:00-22:00',
+  },
+  {
+    Unidade: 'Campo Grande',
+    Rua: 'Estr. Rio do A, 2211',
+    Bairro: 'Campo Grande',
+    Cidade: 'Rio de Janeiro',
+    Estado: 'RJ',
+    CEP: '23080-300',
+    Pais: 'Brasil',
+    Funcionamento: 'Seg-Dom 9:00-22:00',
+  },
+];
